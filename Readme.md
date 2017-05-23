@@ -2,6 +2,8 @@
 
 (For english-speaking speaking users, see file "Readme-english.md")<br>
 
+DENNE METODE ER ADAPTERET FRA FREDERIKSSUND KOMMUNES GITHUB OG ER BRUGT MED QGIS 2.14.7 64BIT INSTALLERET I CITRIX
+
 Dette projekt beskriver en metode til installation og drift af QGIS, hvor QGIS benytter en simpel tekst fil (ini-fil) til opbevaring af opsætningsparametre for programmet. Standard Windows installationen af QGIS benytter registry til opbevaring af opsætningsparametre. 
 
 Ved at fjerne afhængigheden af registry for QGIS opnås en række fordele:
