@@ -172,6 +172,9 @@ Ved første opstart af den nye QGIS 2.14 oprettes den nye brugermappe ".qgis_214
 
 Processen kan i øvrigt gennemføres med flere versioner/nyere versioner af QGIS. QGIS 2.16/".qgis_216", QGIS 2.18/".qgis_218" osv.
 
+HERLEV APPENDIX
+DEN NUVÆRENDE FUNGERENDE QGIS TIL CITRIX INSTALLATION LIGGER I MAPPEN "E:\teknik\gis\GIS\til_test\qgis_citrix_17_03_17"
+
 
 
 
