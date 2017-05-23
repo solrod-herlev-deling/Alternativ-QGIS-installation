@@ -6,10 +6,10 @@ REM 2 parameters that can be changed by GIS administrator
 REM ==================================================================
 
 REM Final path to QGIS user directory (with no trailing backslash).. only used in RUN mode
-set "QGIS_UDIR=%USERPROFILE%\.qgis_218"
+set "QGIS_UDIR=H:\HKCitrix\.qgis_214"
 
 REM Text for the desktop shortcut. Change for new versions
-set "QGIS_TEXT=Start Qgis Las Palmas"
+set "QGIS_TEXT=Start QGIS Essen"
 
 REM Full path of central update command. Use only during beta phase, obvious security problem. Set to "" if not used
 set "QGIS_NETCMD="
@@ -32,7 +32,7 @@ set "QGIS_UDIR=%OSGEO4W_ROOT%\.qgis_template"
 
 REM Create a bat file for later use in the "RUN" phase
 echo set "QGIS_PDIR_ORG=%OSGEO4W_ROOT%" >  %OSGEO4W_ROOT%\bin\qgis-orgdir.bat
-echo set "QGIS_UDIR_ORG=%USERPROFILE%"  >> %OSGEO4W_ROOT%\bin\qgis-orgdir.bat
+echo set "QGIS_UDIR_ORG=H:"  >> %OSGEO4W_ROOT%\bin\qgis-orgdir.bat
 
 REM Exit and run QGIS in "PREPARE" mode 
 exit /b
