@@ -8,5 +8,5 @@ rem Set VSI cache to be used as buffer, see #6448
 set VSI_CACHE=TRUE
 set VSI_CACHE_SIZE=1000000
 set QT_PLUGIN_PATH=%OSGEO4W_ROOT%\apps\qgis-ltr\qtplugins;%OSGEO4W_ROOT%\apps\qt4\plugins
-call "%OSGEO4W_ROOT%\bin\qgis-prepare.bat" RUN
+call "%OSGEO4W_ROOT%\bin\qgis-prepare.bat"
 start "QGIS" /B "%OSGEO4W_ROOT%"\bin\qgis-ltr-bin.exe --configpath "%QGIS_UDIR%" %*
